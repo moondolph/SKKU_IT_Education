@@ -30,7 +30,7 @@ public class PMain3 {
 		// %.xf : 소수점 이하의 자릿수 (잘리는 부분은 반올림처리)
 		//		빈자리는 0으로 채워줌
 		
-		System.out.printf("%f\n", 123.456789);
+		System.out.printf("%f\n", 123.123123);
 		System.out.printf("%.3f\n", 123.456789);
 		System.out.printf("%.10f\n", 123.456789);
 		System.out.println("------------");

@@ -19,7 +19,7 @@ public class StartMain {
 	 * 
 	 */
 	
-
+	
 	/**
 	* 다른 사람들에게 보여주기 위한 설명서
 	* @author beaver
@@ -46,7 +46,6 @@ public class StartMain {
 	//  Sun마이크로시스템즈에서 만든 제품 - Java
 	//  Sun사가 Oracle에 인수를 당함
 	//  Oracle의 제품 - Java
-	//  Oracle JDK(OpenJDK + 추가 기능)	
 	//	Oracle JDK(OpenJDK + 추가 기능) : 유료
 	//	OpenJDK : 무료
 	// 	LTS (Long Term Support)	
@@ -76,23 +75,23 @@ public class StartMain {
 	// MS949, UTF-8, EUC-KR, ...
 	
 	/* 알아두면 유용한 단축키 !
-	 * 1. ctrl + s : 저장
- 	   2. ctrl + a : 전체 선택
-	   3. ctrl + m : 화면비율
-	 * 4. ctrl + shift + / : 여러 줄 주석처리
-       5. ctrl + alt + 방향키(위/아래로) : 그 줄 기준으로 (위/아래로) 복사 	
-	   6. alt + 방향키(위/아래) : 그 줄을 위/아래로 이동 
-	   7. ctrl + shift + +/- (숫자키 옆) : 글자 크기를 키우거나 줄일때 
-	   8. ctrl + d : 그 줄 삭제
-	   9. ctrl + spacebar : 자동완성
+	 * 1. ctrl + s : 저장   ㅇ
+ 	   2. ctrl + a : 전체 선택 ㅇ
+ 	   3. ctrl + m : 화면비율 
+	 * 4. ctrl + shift + / : 여러 줄 주석처리 ㅇ
+       5. ctrl + alt + 방향키(위/아래로) : 그 줄 기준으로 (위/아래로) 복사 ㅇ  	
+	   6. alt + 방향키(위/아래) : 그 줄을 위/아래로 이동 ㅇ  
+	   7. ctrl + shift + +/- (숫자키 옆) : 글자 크기를 키우거나 줄일때  
+	   8. ctrl + d : 그 줄 삭제 ㅇ
+	   9. ctrl + spacebar : 자동완성 ㅇ
 	  10. ctrl + shift + f : 줄 정리 기능
-	  11. ctrl + f11 : 실행 기능
+	  11. ctrl + f11 : 실행 기능 ㅇ
 	  12.  
 	   
 	   
 	/**
 	 * ㅋㅋㅋ를 출력해주는 기능
-	 */
+	 **/
 
 	public static void printkkk() {
 		System.out.println("ㅋㅋㅋ");
