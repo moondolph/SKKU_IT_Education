@@ -17,11 +17,7 @@ public class PMain4 {
 		
 		Thread.sleep(10000); //10초 후 종료
 	
-		
-		
-		
-		
-		
+
 		
 		
 	}
