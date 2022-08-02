@@ -26,14 +26,14 @@ public class FMain5 {
 	
 	// 심부름 중에...(라면 : 3200, 참치 : 2170, 과자 : 1500)
 	// 돈이 얼마 남는지.. 생각.. 
-	public static void doErrand(int money) {
+	public static void doErrand(int money1) {
 		int ramen = 3200; 
 		int tuna = 2170;
 		int snack = 1500;
 		//계산하는 함수
 		//	 계산이라는 작업을 하려면 '받아온 돈'이 필요
 		// 그 돈은... 파라미터로 받아올 것!
-		System.out.printf("심부름하면 %d원이 남네...ㅎ\n", money - (ramen + tuna + snack));
+		System.out.printf("심부름하면 %d원이 남네...ㅎ\n", money1 - (ramen + tuna + snack));
 		System.out.println("-----------------");
 		
 	}
@@ -55,10 +55,10 @@ public class FMain5 {
 	
 	public static void main(String[] args) {
 		makeErrand();
-		int money = takeMoney();
+		int h = takeMoney();
 		//System.out.println(money);
-		doErrand(money);
-		int restMoney = calculate(money);
+		doErrand(h);
+		int restMoney = calculate(h);
 		System.out.println(restMoney);
 		
 	}
