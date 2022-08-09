@@ -34,31 +34,31 @@ public class CMain1 {
 		if (korean < 60 && korean >= 50) {
 			System.out.println("'가'");
 		}
-		
+
 		else if (korean >= 90) {
 			System.out.println("'수'");
 		}
 
-		else if (korean >= 80 ) {
+		else if (korean >= 80) {
 			System.out.println("'우'");
 		}
-		
-		else if (korean >= 70 ) {
+
+		else if (korean >= 70) {
 			System.out.println("'미'");
 		}
-		
-		else if (korean >= 60 ) {
+
+		else if (korean >= 60) {
 			System.out.println("'양'");
-		System.out.println("==============");
+			System.out.println("==============");
 		}
-		//국어 점수가 50점이 안되면 욕, 아니면 칭찬
-		//점수가 50점 이상, 60점 미만이면 아쉬운 소리를 해주세요
-		//점수가 30점 미만이면 퇴학처리
-		
+		// 국어 점수가 50점이 안되면 욕, 아니면 칭찬
+		// 점수가 50점 이상, 60점 미만이면 아쉬운 소리를 해주세요
+		// 점수가 30점 미만이면 퇴학처리
+
 		// if문안에 if문을 또 사용하는 것이 가능!
-		//		if - if문과 if - else문의 차이
-		//		  if - if : 각각 다른 조건문으로 해석이 되어서 수행 => 효율적 x
-		//		  if - else : 하나의 조건이 만족되면 나머지 부분은 수행하지 않음 => 효율적 o
+		// if - if문과 if - else문의 차이
+		// if - if : 각각 다른 조건문으로 해석이 되어서 수행 => 효율적 x
+		// if - else : 하나의 조건이 만족되면 나머지 부분은 수행하지 않음 => 효율적 o
 
 		if (korean < 50) {
 			System.out.println("욕");
@@ -66,23 +66,19 @@ public class CMain1 {
 		if (korean >= 50) {
 			System.out.println("칭찬");
 		}
-		
-		
-		
-		
-		
-		if (korean < 50 ) {
+
+		if (korean < 50) {
 			System.out.println("한국인 맞냐");
 			if (korean < 30) {
-			System.out.println("NAGA!!!!!!!!!!");
+				System.out.println("NAGA!!!!!!!!!!");
 			}
 		} else {
 			System.out.println("잘했어요");
-			if(korean < 60) {
+			if (korean < 60) {
 				System.out.println("세종대왕님한테 사죄할 정도는 아니지만 그래도 해야해");
 			}
 		}
-		
+
 	}
 
 	public static void main(String[] args) {

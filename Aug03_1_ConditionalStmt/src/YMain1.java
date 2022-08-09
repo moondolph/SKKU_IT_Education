@@ -27,7 +27,7 @@ public class YMain1 {
 		Scanner keyboard = new Scanner(System.in);
 		System.out.print("숫자(정수) 0 ~ 100 : ");
 		int num = keyboard.nextInt();
-		return (num >= 0 && num <=100) ? num : getNum3() ;
+		return (num >= 0 && num <=100) ? num : getNum3() ;   //장소현 도 ㅐ ㅈ ㅣㅋㅋㅋㅋ
 	}
 
 	public static void main(String[] args) {
