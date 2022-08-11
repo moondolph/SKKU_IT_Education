@@ -71,6 +71,7 @@ public class Lotto {
 			System.out.print(lotto[i] + " ");
 		}
 		
+		
 		//선택번호 오름차순 정리
 		for (int i = 0; i < pick.length; i++) { // 비교 주체
 			for (int j = i + 1; j < pick.length; j++) { // 비교 대상
