@@ -11,7 +11,7 @@ public class PMain1 {
 		for (int i = 0; i < num.length; i++) {
 			num[i] = r.nextInt(100) + 1;
 		}
-		for (int i :qo¤º) {
+		for (int i : num) {
 			System.out.println(i + " ");
 		}
 		System.out.println();

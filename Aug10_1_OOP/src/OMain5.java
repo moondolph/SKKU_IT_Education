@@ -34,9 +34,8 @@ public class OMain5 {
 		////////////////////////// 마스크의 정보가 사라지는 시점. Garbage Collection이 발동!
 		System.out.println(m2);
 		
-		m2.printInfo(); // m2의 정보를 출력하는게 불가능
+		m2.showMaskInfo(); // m2의 정보를 출력하는게 불가능
 		// 발동이 안되면 다 끝나서야 날라감 
-		
 	}
 }
 // 프로그램이 종료되면 Stack영역이 날라가고
