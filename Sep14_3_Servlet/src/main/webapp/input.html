@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!--
+		회원가입 페이지
+		ID		<-인풋
+		PW		<-인풋
+		성별		
+		지역
+			<select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select>
+		취미(복수선택 가능)
+		자기소개(textarea사용)
+		가입버튼 누르면 => 입력한 정보들이 새로운 페이지 뜨게!(servlet) 이용 
+	-->
+	<form action="Output2" method="post">				
+	<h1 align="center">회원가입페이지</h1><hr><p>
+	
+	<!--autofocus, autocomplete, placeholer,    -->
+	
+	ID : <input name="id"><hr>
+	PW : <input name="pw"><hr>
+	성별 : <select name="gender"><option>남</option><option>여</option></select><hr>
+	지역 : <select name="place">
+	<option>서울</option>
+	<option>부산</option>
+	<option>인천</option>
+	<option>대구</option>
+	<option>대전</option>
+	<option>광주</option>
+	<option>울산</option>
+	<option>경남</option>
+	<option>경북</option>
+	<option>충남</option>
+	<option>충북</option>
+	<option>전북</option>
+	<option>전남</option>
+	<option>강원</option>
+	</select><hr>
+	취미 : 
+	<input type="checkbox" value="요리" name="hob">요리
+	<input type="checkbox" value="독서" name="hob">독서
+	<input type="checkbox" value="컴퓨터" name="hob">컴퓨터
+	<input type="checkbox" value="공부" name="hob">공부
+	<input type="checkbox" value="여행" name="hob">여행
+	<input type="checkbox" value="운동" name="hob">운동
+	<input type="checkbox" value="TV" name="hob">TV
+	<input type="checkbox" value="음악감상" name="hob">음악감상
+	<input type="checkbox" value="영화" name="hob">영화
+	<input type="checkbox" value="노래" name="hob">노래
+	<input type="checkbox" value="산책" name="hob">산책
+	<input type="checkbox" value="쇼핑" name="hob">쇼핑
+	<input type="checkbox" value="수면" name="hob">수면
+	
+	<hr>
+	<div ><font size="5" >자기소개</font><textarea name = "msg" rows="8" cols="100"></textarea><hr>
+	</div>
+	
+		<button>입력</button><br><br>
+		
+		
+		</form>
+	
+</body>
+</html>

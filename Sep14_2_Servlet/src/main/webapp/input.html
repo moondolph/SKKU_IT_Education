@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+			
+	<form action= "Output" method="post">				<!-- <---하나의 틀이네 체크박스로 호출 -> 그럼 Output java에 Servlet 작동-->
+		입력 : <input name="a">
+		<hr>
+		<button>Output으로 가기</button><br><br>
+		<input type = "submit" value="이게 기본임"> <br><br>
+		<input type = "reset"> <br><br>
+		
+		<!-- 
+			form속에 있는
+				원래 : <input type="submit"> 누르면 Output 넘어갔는데
+				바뀜 : 이제는 버튼 모양인거 아무거나 누르면 
+					<input type="button" or "image", ... >
+					cf) type="reset"만 빼고
+				action 속성에 쓴 쪽으로 요청
+		 -->
+	</form>
+
+</body>
+</html>
