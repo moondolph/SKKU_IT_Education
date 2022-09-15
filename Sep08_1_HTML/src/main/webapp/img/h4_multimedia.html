@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		파일 경로
+			절대경로 : 처음부터 다 명시 ! 
+				경기도 부천시 xxx로 00길 11 ( aa동, ㅠㅠ빌딩 5층)
+				실전에서는 사용불가능 
+			상대경로 : 현재 작업중인 html기준으로
+				.. - 한단계 위의 경로로	
+				*** 한글파일명 가급적 사용 x !
+					
+	-->
+	<!-- 사이즈 조절
+				가로나 세로 중에 하나만 조절하면 -> 원본 비율에 따라 알아서 크기 조절
+				단위 안쓰면 px(픽셀) 단위  
+				%단위 사용 가능 O
+				사이즈 조절은 안하는게 베스트! -> 그림이 깨져서 나와요!
+	-->
+	<!-- 그림, 동영상, 노래파일, pdf파일, 알집파일, ...-->
+	<img src = "C:/Users/user/Desktop/그림/swissNature.jpg">
+	<img src = "C:/Users/user/Desktop/그림/홀란드.jfif">
+	<img src = "C:/Users/user/Desktop/그림/홀란드.png">
+	<img src = "C:/Users/user/Desktop/그림/홀란드.pdf">
+	<img src = "C:/Users/user/Desktop/그림/startupCamPus.jpg">
+ 	<hr>			
+ 	<img src = "홀란드.png"> <--상대경로	
+ 	<hr>
+ 	<video src="../swissbicycle.mp4" controls="controls"></video>	
+ 	<hr>
+ 	<embed src="../홀란드.pdf" width="600px" height="600px">	
+ 	<hr>
+ 	<audio src="../Imagine Dragons - Thunder.mp3" controls= "controls" autoplay = "autoplay"></audio>
+ 	
+ 					
+</body>
+</html>

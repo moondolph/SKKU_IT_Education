@@ -1,0 +1,29 @@
+@charset "EUC-KR";
+.aphoto{
+	width:700px;
+	border: black solid 4px;
+	border-radius: 10px;
+	box-shadow: marron 0px 0px 20px inset;
+	font-family: "SF싸락눈-OTF.otf";
+	font-size: 10pt;
+}
+
+.imgTd{
+	width: 150px;
+	padding: 10px;
+}
+
+.aguestbook img{
+	max-width: 150px;
+	border-radius: 30px;
+}
+
+.textTd{
+	overflow: hidden;			/* max-width를 벗어나는 내용을 숨길 때 */
+	white-space: nowrap;		/* 벗어나는 내용들 범위와 상관없이 한 줄로 표시(가로스크롤) */
+	text-overflow: ellipsis;	/* 이것을 추가 하면 끝에 잘리는 부분을 ...으로 처리 */
+	max-width: 500px;												
+	
+	
+	
+}

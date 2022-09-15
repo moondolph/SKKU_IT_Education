@@ -1,0 +1,18 @@
+@charset "EUC-KR";
+.aimage{
+	border : silver solid 3px;
+	border-radius : 10px;				/* ¸ð¼­¸® µÕ±Û°Ô */
+	box-shadow : teal 3px 3px 5px;
+	float: left;				
+	margin-left: 10px;
+	margin-right: 10px; 
+	font-family: "SF½Î¶ô´«-OTF.otf";
+	font-size: 20pt;
+}
+
+.aimage img{
+	max-width: 300px;
+	max-height: 250px;
+	margin-top: 20px;
+	box-shadow: navy 0px 0px 5px;
+}
