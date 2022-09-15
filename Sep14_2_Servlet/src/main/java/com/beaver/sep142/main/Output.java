@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/Output")
+
 public class Output extends HttpServlet {
 
 	// 사용자가 입력한 데이터가 주소에
@@ -45,7 +46,7 @@ public class Output extends HttpServlet {
 	//	    보안성 높음 - 로그인, 회원가입, ... 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doGet(request, response);
+//		doGet(request, response);
 		
 		request.setCharacterEncoding("EUC-KR"); // post방식에서 이거 안하면 한글 깨져서 나옴 
 		response.setCharacterEncoding("EUC-KR");

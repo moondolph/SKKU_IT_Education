@@ -22,7 +22,7 @@ public class Output2 extends HttpServlet {
 		String pw = request.getParameter("pw");
 		String gender = request.getParameter("gender");
 		String place = request.getParameter("place");
-		String hobby = request.getParameter("hobby");
+		String hobby = request.getParameter("hb");
 		String msg = request.getParameter("msg");
 
 		PrintWriter out = response.getWriter();
@@ -30,7 +30,7 @@ public class Output2 extends HttpServlet {
 		out.print("<head><title>Hi</title><meta charset='EUC-KR'></head>");
 		out.print("<body>");
 
-		out.print("<h2>Output-POST</h2>");
+		out.print("<h2>Output-POSTsssaa</h2>");
 		out.printf("<h2>ID%s</h2><hr>", id);
 		out.printf("<h2>PW%s</h2><hr>", pw);
 		out.printf("<h2>성별%s</h2><hr>", gender);
@@ -53,7 +53,7 @@ public class Output2 extends HttpServlet {
 		String pw = request.getParameter("pw");
 		String gender = request.getParameter("gender");
 		String place = request.getParameter("place");
-		String hobby = request.getParameter("hobby");
+		String hobby = request.getParameter("hb");
 		String msg = request.getParameter("msg");
 
 		PrintWriter out = response.getWriter();
@@ -61,7 +61,7 @@ public class Output2 extends HttpServlet {
 		out.print("<head><title>Hi</title><meta charset='EUC-KR'></head>");
 		out.print("<body>");
 
-		out.print("<h2>Output-POST</h2>");
+		out.print("<h2>Output-POSTsss</h2>");
 		out.printf("<h2>ID%s</h2><hr>", id);
 		out.printf("<h2>PW%s</h2><hr>", pw);
 		out.printf("<h2>성별%s</h2><hr>", gender);
