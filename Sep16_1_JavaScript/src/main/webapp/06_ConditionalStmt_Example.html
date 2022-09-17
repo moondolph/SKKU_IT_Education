@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function kkkk() {
+		alert('ㅋㅋㅋㅋㅋㅋ');
+	}
+	
+	// 1. 버튼 3개를 추가해서 각각 '100원', '500원', '1000원' 텍스트 넣기	
+	// 2. 각 버튼에 기능 넣기
+	// 3. 
+	//		500원 미만이면  '선택할 수 있는 음료수 없음!'
+	//		500원 이상이면  '콜라 선택 가능'
+	//		700원 이상이면	 '콜라, 사이다 선택 가능'
+	//		1000원 이상이면 '콜라, 사이다, 닥터페터 선택 가능'
+	//		2000원 이상이면 '콜라, 사이다, 닥터페터, 맥주 선택 가능'
+	//		3000원 이상이면 '콜라, 사이다, 닥터페터, 맥주, 소주 선택 가능'
+	//			=> alert으로 출력
+	// 4. 돈 쌓이는거 log로 확인 			
+	
+	
+	let money = 0;
+	
+	function coin(){
+		alert("돈을 넣어주세요.");
+	}
+	
+	function btn1(){
+		money += 100;
+		console.log("현재 금액 :" + money + "원");
+		choiceDrink();
+	}
+	
+	function btn2(){
+		money += 500;
+		console.log("현재 금액 :" + money + "원");
+		choiceDrink();
+	}
+	
+	function btn3(){
+		money += 1000;
+		console.log("현재 금액 :" + money + "원");
+		choiceDrink();
+	}
+	
+	function btn4(){
+		console.log(money + "원이 환불됩니다.");
+		money = 0;
+		console.log("현재 금액 : " + money + "원");
+	}
+	
+	function choiceDrink(){
+		if (money >= 3000){
+			alert("콜라, 사이다, 닥터페퍼, 맥주, 소주 선택 가능");
+		}
+		else if (money >= 2000){
+			alert("콜라, 사이다, 닥터페퍼, 맥주 선택 가능");
+		}
+		else if (money >= 1000){
+			alert("콜라, 사이다, 닥터페퍼 선택 가능");
+		}
+		else if (money >= 700){
+			alert("콜라, 사이다 선택 가능");
+		}
+		else if (money >= 500){
+			alert("콜라 선택 가능");
+		}
+		else {
+			alert("선택할 수 있는 음료 없음!");
+		}
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* 	static let money = 0 ;
+	function money100(){
+		money = money + 100;
+		console.log("총 투입금액 : " + money);
+		if (money >= 3000){
+			alert("콜라, 사이다, 닥터페퍼, 맥주, 소주 선택 가능");
+		}
+		if (money >= 2000){
+			alert("콜라, 사이다, 닥터페퍼, 맥주 선택 가능");
+		}
+		if (money >= 1000){
+			alert("콜라, 사이다, 닥터페퍼 선택 가능");
+		}
+		if (money >= 700){
+			alert("콜라, 사이다 선택 가능");
+		}
+		if (money >= 500){
+			alert("콜라 선택 가능");
+		}
+		if (money >= 500){
+			alert("선택할 수 있는 음료 없음!");
+		}
+	}
+	
+	function money500(){
+		let money = 0 ;
+		money = money + 500;
+	}
+	
+	function money1000(){
+		let money = 0 ;
+		money = money + 1000;
+	}
+	
+	
+	
+	function information(){
+		if (money >= 3000){
+			alert("콜라, 사이다, 닥터페퍼, 맥주, 소주 선택 가능");
+		}
+		if (money >= 2000){
+			alert("콜라, 사이다, 닥터페퍼, 맥주 선택 가능");
+		}
+		if (money >= 1000){
+			alert("콜라, 사이다, 닥터페퍼 선택 가능");
+		}
+		if (money >= 700){
+			alert("콜라, 사이다 선택 가능");
+		}
+		if (money >= 500){
+			alert("콜라 선택 가능");
+		}
+		if (money >= 500){
+			alert("선택할 수 있는 음료 없음!");
+		}
+	} */
+	
+</script>
+</head>
+<body>
+	
+
+	<button onclick="kkkk();">누르면ㅋㅋㅋㅋㅋ나오는 버튼</button>
+	
+	
+	<div>콜라 : 500원</div>
+	<div>사이다 : 700원</div>
+	<div>닥터페퍼 : 1000원</div>
+	<div>맥주 : 2000원</div>
+	<div>소주 : 3000원</div>
+	
+	<hr>
+	<button onclick="coin();">돈넣기</button>
+	<button onclick="btn1();">100원</button>
+	<button onclick="btn2();">500원</button>
+	<button onclick="btn3();">1000원</button>
+	<button onclick="btn4();">돈빼기</button>
+	
+	
+	<!-- <button onclick="money100();">100원</button>
+	<button onclick="money200();">500원</button>
+	<button onclick="money300();">1000원</button> --> 
+
+</body>
+</html>
