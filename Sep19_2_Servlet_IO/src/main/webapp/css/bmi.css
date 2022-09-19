@@ -12,15 +12,23 @@
 	src: url("SF½Î¶ô´«-OTF.otf"); 
 }
 
-body {
-	overflow : scroll;	
+body{background-image: url("swissNature.jpg")}
+
+#tg{
+	margin:auto;
+	margin-top: 250px;
 }
 
-#tableDesign{
-	border-spacing: 0px; /* td°£ÀÇ °£°Ý */
-	position: fixed;  
-	top: 0px;
-	left: 0px; /* ÁÂÇ¥ Á¶Àý */
-	width: 100%;
-	font-family:"SF½Î¶ô´«"
+.tg-0w9m{
+	text-align: center;
+}
+
+
+.tg-0lax{
+	margin-left: 40px;
+}
+
+.tg-5s80{
+	text-align: center;
+	
 }

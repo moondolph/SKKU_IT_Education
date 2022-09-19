@@ -58,42 +58,29 @@ function checkValid(){
 	
 <form action="BMIOutput" name="ff" onsubmit="return checkValid();">
  
-<table class="tg" style="undefined;table-layout: fixed; width: 236px">
-<colgroup>
-<col style="width: 74px">
-<col style="width: 27px">
-<col style="width: 27px">
-<col style="width: 27px">
-<col style="width: 27px">
-<col style="width: 27px">
-<col style="width: 27px">
-</colgroup>
-<thead>
+<table id="tg" border="1" >
   <tr>
     <th class="tg-ap98" colspan="7">[BMI검사]</th>
   </tr>
-</thead>
-<tbody>
   <tr>
     <td class="tg-0w9m">이름</td>
-    <td class="tg-0lax" colspan="6"><input name="name" maxlength="10" autofocus="autofocus"></td>
+    <td  colspan="6" ><input class="tg-0lax" name="name" maxlength="10" autofocus="autofocus"></td>
   </tr>
   <tr>
     <td class="tg-0w9m">키</td>
-    <td class="tg-0lax" colspan="6"><input name="height" type="password" maxlength="10"></td>
+    <td  colspan="6"><input class="tg-0lax" name="height" type="password" maxlength="10"></td>
   </tr>
   <tr>
     <td class="tg-0w9m">몸무게</td>
-    <td class="tg-0lax" colspan="6"><input name="weight" type="password" maxlength="10"></td>
+    <td  colspan="6"><input class="tg-0lax" name="weight" type="password" maxlength="10"></td>
   </tr>
   <tr>
     <td class="tg-0w9m">사진</td>
-    <td class="tg-0lax" colspan="6"><input name="picture" type="file" maxlength="10"></td>
+    <td  colspan="6"><input class="tg-0lax" name="picture" type="file" maxlength="10"></td>
   </tr>
   <tr>
     <td class="tg-5s80" colspan="7">결과확인<button>Submit</button></td>
   </tr>
-</tbody>
 </table>
 	</form>
 
