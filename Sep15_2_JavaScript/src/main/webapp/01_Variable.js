@@ -5,16 +5,17 @@
 // 1. 변수
 // 	   : 데이터를 담는 그릇 
 
-// 변수에 접근하는 방법 
+// 변수에 접근하는 방법 	--> 출력을 어떻게 할 것인가? --> (얼콘도)
 //		-alert()			: 경고창을 띄워주는 함수
 //		-console.log()		: 로그를 띄워주는 함수
 //		-document.write()	: 웹페이지에 내용을 출력
 // 
-name = "Beaver";
+name = "Beaver"; 
 age = 300; 	// -> 이런 방식은 위험함 ! (전역 변수의 형태이기 때문)
 
+
 // 이걸 방지하기 위해서 변수 선언의 형태로 3가지 방법이 있는데...
-// var, let, const
+// var, let, const   --> 자바스크립트는 자료형을 선언하지 않음 (바렛콘)
 
 // ▶ var : var(iable)
 //		중복해서 선언 + 초기화가 가능
@@ -26,6 +27,8 @@ var a = 30;		// 변수 선언 + 초기화
 console.log(a);	// 30
 var a;			// 변수 선언 : 마지막에 할당된 값이 변수에 저장
 console.log(a); // 30
+a= 40;		//전역변수선언
+console.log(a); //40
 
 // -> 기존에 선언해둔 변수를 까먹고 다시 값을 할당하는 실수가 발생할 수 있음
 
@@ -40,9 +43,9 @@ console.log(name);
 
 // let은 한번 선언한 후에 값은 바꿔줄 수 있음!
 let grade = "F";
-console.log(grade);
+console.log(grade);		// F
 grade = "A+";		//변수명 = 값;의 형태로 변경이 가능 O
-console.log(grade);
+console.log(grade);		// A+
 
 // ▶const : 값이 절대로 바뀌지 않는 상수
 // 	  수정이 안되고, 수정하려고 하면 에러가 발생함
@@ -50,7 +53,7 @@ console.log(grade);
 //	  const 변수명은 꼭!!!! 반드시!!!! 대문자로 입력(국룰)
 const PI = 3.141592;
 console.log(PI);
-PI = 6.12312515;
+//PI = 6.12312515;
 console.log(PI);
 
 //정리!

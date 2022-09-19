@@ -1,0 +1,26 @@
+@charset "EUC-KR";
+
+@font-face {
+	
+		/* 웹폰트 등록 : 
+			CSS에 추가(IE에서는 안 먹힘 - ?!?!?!)
+			폰트파일에 있는 글자들 모양이 다 등록 
+				=>용량이 커집니다!
+					=>느림... */
+	
+	font-family : "SF싸락눈";
+	src: url("SF싸락눈-OTF.otf"); 
+}
+
+body {
+	overflow : scroll;	
+}
+
+#tableDesign{
+	border-spacing: 0px; /* td간의 간격 */
+	position: fixed;  
+	top: 0px;
+	left: 0px; /* 좌표 조절 */
+	width: 100%;
+	font-family:"SF싸락눈"
+}
