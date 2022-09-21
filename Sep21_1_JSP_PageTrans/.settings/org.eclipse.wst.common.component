@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-        
-    <wb-module deploy-name="Sep19_2_Servlet_IO_Jaden">
-                
+    <wb-module deploy-name="Sep21_1_JSP_PageTrans">
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-                
-        <property name="java-output-path" value="/Sep19_2_Servlet_IO_Jaden/build/classes"/>
-        <property name="context-root" value="Sep19_2_Servlet_IO_Jaden"/>
-            
+        <property name="context-root" value="Sep21_1_JSP_PageTrans"/>
+        <property name="java-output-path" value="/Sep21_1_JSP_PageTrans/build/classes"/>
     </wb-module>
-    
 </project-modules>
