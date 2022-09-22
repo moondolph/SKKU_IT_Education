@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Sep21_3_JSPModel2_BMI" path="/Sep21_3_JSPModel2_BMI" reloadable="true" source="org.eclipse.jst.jee.server:Sep21_3_JSPModel2_BMI"/><Context docBase="Sep21_4_EL" path="/Sep21_4_EL" reloadable="true" source="org.eclipse.jst.jee.server:Sep21_4_EL"/></Host>
+      <Context docBase="Sep21_3_JSPModel2_BMI" path="/Sep21_3_JSPModel2_BMI" reloadable="true" source="org.eclipse.jst.jee.server:Sep21_3_JSPModel2_BMI"/><Context docBase="Sep21_4_EL" path="/Sep21_4_EL" reloadable="true" source="org.eclipse.jst.jee.server:Sep21_4_EL"/><Context docBase="Sep22_1_RSP" path="/Sep22_1_RSP" reloadable="true" source="org.eclipse.jst.jee.server:Sep22_1_RSP"/><Context docBase="Sep19_2_Servlet_IO_Jaden" path="/Sep19_2_Servlet_IO_Jaden" reloadable="true" source="org.eclipse.jst.jee.server:Sep19_2_Servlet_IO_Jaden"/><Context docBase="Sep22_2_NB" path="/Sep22_2_NB" reloadable="true" source="org.eclipse.jst.jee.server:Sep22_2_NB"/></Host>
     </Engine>
   </Service>
 </Server>
