@@ -39,7 +39,7 @@ body {
 }
 
 #siteMenuArea a{
-	text-decoration: none; 
+	text-decoration: blink; 
 	color : teal;
 	font-weight: 500;
 	/* 애니메이션 효과 */

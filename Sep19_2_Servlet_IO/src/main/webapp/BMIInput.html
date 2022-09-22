@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>또 BMI검사</title>
+<link rel="stylesheet" href="css/bmi.css">
+<script type="text/javascript">
+	function checkValid() {
+		let nameInput = document.ff.name; // document.form이름.input이름
+		let heightInput = document.ff.height;
+		let weightInput = document.ff.weight;
+		let pictureInput = document.ff.picture;
+
+		if (!nameInput.value) {
+			alert("님 이름 쓰셔야죠 ㅋㅋㅋ ");
+			nameInput.focus(); //커서 갖다놓기 
+			nameInput.value = ""; //기존에 썼던 거 지우기
+			return false;
+		}
+
+		if (!heightInput.value) {
+			alert("님 키 입력 안 했슴 ㅋㅋ");
+			heightInput.focus();
+			return false;
+		} else if (heightInput.value.length < 3) {
+			alert("키는 cm로 숫자 3개");
+			heightInput.focus();
+			heightInput.value = ""; //기존에 썼던 거 지우기
+			return false;
+		}
+
+		if (!weightInput.value) {
+			alert("님 몸무게 입력 안함? ㅋㅋㅋ");
+			weightInput.focus();
+			return false;
+		}
+
+		if (!pictureInput.value) {
+			alert("사진 첨부해야지 ?");
+			pictureInput.focus();
+			return false;
+		}
+
+	}
+
+	/* <!-- 유효성검사, css --> */
+</script>
+</head>
+<body>
+	<!-- table + form
+		BMI 검사
+		필요한 정보 + 사진
+		이름 키 몸무게 사진
+	 -->
+	<!-- 그 정보를 가지고 계산을 해서 결과를 출력... => Servlet -->
+
+	<form action="BMIOutput.jsp" name="ff" onsubmit="return checkValid();"
+		method="post" enctype="multipart/form-data">
+
+		<table id="tg" border="1">
+			<tr>
+				<th class="tg-ap98" colspan="7">[BMI검사]</th>
+			</tr>
+			<tr>
+				<td class="tg-0w9m">이름</td>
+				<td colspan="6"><input class="tg-0lax" name="name"
+					maxlength="10" autofocus="autofocus"></td>
+			</tr>
+			<tr>
+				<td class="tg-0w9m">키</td>
+				<td colspan="6"><input class="tg-0lax" name="height"
+					maxlength="10"></td>
+			</tr>
+			<tr>
+				<td class="tg-0w9m">몸무게</td>
+				<td colspan="6"><input class="tg-0lax" name="weight"
+					maxlength="10"></td>
+			</tr>
+			<tr>
+				<td class="tg-0w9m">사진</td>
+				<td colspan="6"><input class="tg-0lax" name="picture"
+					type="file"></td>
+			</tr>
+			<tr>
+				<td class="tg-5s80" colspan="7">결과확인
+					<button>Submit</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

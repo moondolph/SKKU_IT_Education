@@ -13,7 +13,7 @@ let message2 = 'I\'m a boy.';	//작은 따옴표를 사용 시 \(역슬래시)를 넣으면
 
 // ${변수명}을 넣어서 표현함
 let message3 = `My name is ${name1}`;
-document.write(message3 + '<br>');
+document.write(message3 + '<br>');     //'<br>'은 자바의 ln기능 
 let message4 = "My name is ${name2}";
 document.write(message4 + '<br>'); // ${name1}이 그대로 노출됨.. ㅠ
 
