@@ -18,7 +18,7 @@ public class HomeController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// BMI 계산 기능 부재
-		Doctor.calculate(request);
+		 
 		request.getRequestDispatcher("BMIOutput.jsp").forward(request, response);
 
 	}
