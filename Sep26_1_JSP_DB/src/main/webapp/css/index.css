@@ -1,0 +1,37 @@
+@charset "EUC-KR";
+
+body{
+	background-color: aqua;
+}
+
+#siteTbl{
+	margin: auto;
+}
+
+#siteTitleArea{
+	font-size: 50px;
+}
+
+#siteMenutbl{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;		/*가로로 화면에 꽉차게 */
+	height: 80px;		
+	background-color: lime;
+}
+
+
+#siteMenuTbl a{
+	font-family: serif;
+	color: pink;
+	
+}
+
+#siteContentArea {
+	font-size: "7";
+	
+	
+	
+}
+
+
