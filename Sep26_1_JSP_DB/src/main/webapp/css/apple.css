@@ -1,0 +1,32 @@
+@charset "EUC-KR";
+
+
+
+body{
+	background-color: aqua;
+	
+}
+
+#appleTbl{
+	border : thin;
+	border-color: rgb(255, 128, 255);
+	width: 500px;
+	margin: auto;
+	
+}
+
+#appleboard{
+	margin: auto;
+}
+
+
+#apple{
+	margin: auto;
+	
+	
+}
+
+#apple2{
+	margin: auto;
+	
+}

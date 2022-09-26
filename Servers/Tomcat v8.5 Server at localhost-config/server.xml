@@ -60,7 +60,7 @@
          APR (HTTP/AJP) Connector: /docs/apr.html
          Define a non-SSL/TLS HTTP/1.1 Connector on port 80
     -->
-    <Connector URIEncoding="EUC-KR" connectionTimeout="20000" port="80" protocol="HTTP/1.1" redirectPort="8443"/>
+    <Connector connectionTimeout="20000" port="80" protocol="HTTP/1.1" redirectPort="8443"/>
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Sep21_3_JSPModel2_BMI" path="/Sep21_3_JSPModel2_BMI" reloadable="true" source="org.eclipse.jst.jee.server:Sep21_3_JSPModel2_BMI"/><Context docBase="Sep21_4_EL" path="/Sep21_4_EL" reloadable="true" source="org.eclipse.jst.jee.server:Sep21_4_EL"/><Context docBase="Sep22_1_RSP" path="/Sep22_1_RSP" reloadable="true" source="org.eclipse.jst.jee.server:Sep22_1_RSP"/><Context docBase="Sep19_2_Servlet_IO_Jaden" path="/Sep19_2_Servlet_IO_Jaden" reloadable="true" source="org.eclipse.jst.jee.server:Sep19_2_Servlet_IO_Jaden"/><Context docBase="Sep22_2_NB" path="/Sep22_2_NB" reloadable="true" source="org.eclipse.jst.jee.server:Sep22_2_NB"/></Host>
+      <Context docBase="Sep26_1_JSP_DB" path="/Sep26_1_JSP_DB" reloadable="true" source="org.eclipse.jst.jee.server:Sep26_1_JSP_DB"/><Context docBase="Sep23_3_CustomTag" path="/Sep23_2_Website" reloadable="true" source="org.eclipse.jst.jee.server:Sep23_3_CustomTag"/></Host>
     </Engine>
   </Service>
 </Server>
