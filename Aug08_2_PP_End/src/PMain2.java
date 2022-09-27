@@ -1,4 +1,4 @@
-// PP : 절차지향프로그래밍 (Procedural Programming)
+// PP : 절차지향프로그래밍
 
 // 연산자
 // Shift 연산자
@@ -27,7 +27,7 @@ public class PMain2 {
 			System.out.println("주차장");
 			button1 -= (1<<1);
 		}
-		if (button1 >= (1<<0)) {								//button1= 3이면 위에 if가 동작해서 else if 이 부분이 작동 안함
+		if (button1 >= (1<<0)) {										//button1= 3이면 위에 if가 동작해서 else if 이 부분이 작동 안함
 			System.out.println("24시간");
 			button1 -= (1<<0);
 		}
@@ -36,7 +36,7 @@ public class PMain2 {
 		System.out.println("-------------------------");
 		int button2 = 13;
 		
-		String[] option = {"24시간", "주차장", "WIFI", "흡연실"};
+		String[] option = { "24시간", "주차장", "WIFI", "흡연실"};
 		for(int i = option.length - 1; i>=0; i--) {
 			if (button2>=(1<<i)) {
 				System.out.println(option[i]);

@@ -1,3 +1,4 @@
+
 public class WhatIsValue {
 	// 알고 싶은 자료형의 기본값을 멤버변수로 만들어서
 	//기본형 - 정수

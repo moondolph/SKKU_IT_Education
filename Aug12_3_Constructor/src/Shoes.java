@@ -15,7 +15,7 @@ public class Shoes {
 	String name;
 	int size;
 	int price;
-	static String brand ; // static final String brand = "나이키";
+	static String brand = "나이키"; // static final String brand = "나이키";
 									// final 넣어도 됨
 
 	// 기본 생성자(Ctrl + Space)
@@ -26,7 +26,7 @@ public class Shoes {
 	// 생성자 오버로딩(Ctrl + Shift + Space)
 	public Shoes(String name, int size, int price) {
 		super(); // 위에 있는 기본생성자를 불러옴!
-		this.name = name;				//파라미터로 입력받은 값을 멤버변수로 쓰겟다 
+		this.name = name;
 		this.size = size;
 		this.price = price;
 	}

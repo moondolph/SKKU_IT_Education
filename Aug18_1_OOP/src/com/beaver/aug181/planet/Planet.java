@@ -41,7 +41,7 @@ public class Planet {
 		this.visible = visible;
 	}
 	
-	public void inhabit(Human h) {
+	public void add(Human h) {
 		System.out.printf("%s에 %s 이/가 입주 !\n", name, h.getName());
 	}
 	

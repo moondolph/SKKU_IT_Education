@@ -6,12 +6,11 @@ package com.beaver.aug173.dog;
 public class Dog {
 								//접근범위
 	public int a;				//제한 없음
-	protected int b;			//같은 패키지에서만 사용가능 or 다른 패키지라면 그 하위 클래스
+	protected int b;			//같은 패키지 or 다른 패키지라면 그 하위 클래스
 	
 	/*default*/ int c;			// (default : 아무것도 쓰지 않은...) 같은 패키지 내 
 	
 	private int d;				// 클래스 내부에서만 O / 외부에서는 사용 X 
 	
-	int e;
 	
 }
