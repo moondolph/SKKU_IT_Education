@@ -36,7 +36,7 @@ public class WeatherMain {
 					tagName = xpp.getName();
 				} else if (type == XmlPullParser.TEXT) {
 					if (tagName.equals("hour")) {
-						System.out.printf("시간 : %s\n", xpp.getText());
+						System.out.printf("시간 : ~%s시\n", xpp.getText());
 					} else if (tagName.equals("temp")) {
 						System.out.printf("온도 : %s℃\n", xpp.getText());
 					} else if (tagName.equals("wfKor")) {
@@ -45,9 +45,7 @@ public class WeatherMain {
 						System.out.printf("바람방향 : %s\n", xpp.getText());
 						System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 					}
-				}
-
-				else if (type == XmlPullParser.END_TAG) {
+				} else if (type == XmlPullParser.END_TAG) {
 					tagName = ""; // XML에서는 띄어쓰기를 텍스트로 인식하는 경우가 있음
 				}
 				xpp.next(); // 다음걸로 넘어감

@@ -2,10 +2,10 @@ public class PMain2 {
 	public static void main(String[] args) { 
 		// Escape Sequence(이스케이프 문자) : 특수한 문자나 특수한 기능을 표현할 때 역슬래시 \ 를 사용해서 
 		
-		//  \t : Tab키 (줄 맞추는 용도)
-		//  \n : New Line (줄만 맞추는 용도)
-		//  \r : Carriage Return (커서를 맨 앞으로)
-		//  \r\n : Enter키
+		//  \t : Tab키 (줄 맞추는 용도) ㅇ
+		//  \n : New Line (줄만 맞추는 용도) ㅇ
+		//  \r : Carriage Return (커서를 맨 앞으로) 
+		//  \r\n : Enter키  
 		//  \b : Backspace키(1byte만 지움) -> Java에서는 사용 X  
 		//         C언어 - 한 글자 : 1byte
 		//         Java - 한 글자 : 2byte

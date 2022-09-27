@@ -1,12 +1,15 @@
 import java.util.Scanner;
 
 //어떤 숫자를 콘솔창에 입력
-// 그 숫자의 약수를 출력해주는 프로그램
+// 그 숫자의 약수를 출력해주는 프로그램						
 //	Main에서 진행 -> 음수값은 무시
 // ex) 12의 약수는 : 1, 2, 3, 4, 6, 12
-// 계속 입력하면 약수를 계속 출력해서 보여주고 ->
+// 계속 입력하면 약수를 계속 출력해서 보여주고 
 // 콘솔창에 0을 입력하면 프로그램이 종료되게! (0을 입력하기 전까지는 무한반복)
 // 배열 사용x 
+
+// --> 1. 반복문 안에다가 스캐너로 입력받게 하고 + %==0 이용해서 약수를 출력하게 함
+
 
 public class PMain1 {
 	public static void main(String[] args) {
@@ -35,14 +38,15 @@ public class PMain1 {
 			System.out.print("약수를 구하고 싶은 숫자를 입력하시오: ");
 			int a = k.nextInt();
 			if(a==0) {
-				break;
-			}
-			System.out.print("약수:");
-			for (int i = 1;i<=a; i++) {
+				break;				
+			}			// 입력받은 숫자가 0이면 프로그램 종료되게 break문으로 반복문 깨 
+			System.out.print("약수:");		//화면에 출력되는 부분
+			int i = 0;
+			for (i=1; i<=a; i++) {
 				if (a % i == 0) {
 					System.out.printf("%d ",i);
-				}
-			} System.out.println(); 
+				}								//for문으로 i가 1부터 입력받은 숫자까지 커지게 하고 나머지가 0인 수로 나누는 수를 약수로 출력 
+			} break;
 		}
 		
 	

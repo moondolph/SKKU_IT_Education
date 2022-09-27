@@ -1,4 +1,3 @@
-
 public class YMain {
 	public static void main(String[] args) throws InterruptedException {
 		// 집까지 얼마나 걸렸는지 (시간) : 0.5시간

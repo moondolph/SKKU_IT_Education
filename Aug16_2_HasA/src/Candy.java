@@ -5,7 +5,7 @@
 public class Candy {
 	String name ;
 	String taste;
-	Company brand;
+	Company brand;					//Candy 클래스의 멤버변수로 Company 클래스를 주고 Company 클래스의 기능들을 사용할 수 있음
 	
 	
 	public Candy() {

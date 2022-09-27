@@ -37,5 +37,9 @@ public class PMain4 {
 			System.out.println(s2); // 출력 (배열의 요소 순서대로)
 		}
 			
+	
+	
 	}
+	
+	
 }

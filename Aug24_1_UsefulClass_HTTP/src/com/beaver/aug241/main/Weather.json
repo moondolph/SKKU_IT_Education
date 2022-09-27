@@ -1,0 +1,46 @@
+{
+	"visibility": 10000,
+	"timezone": 32400,
+	"main": {
+		"temp": 27.01,
+		"temp_min": 26.03,
+		"humidity": 61,
+		"pressure": 1008,
+		"feels_like": 28.17,
+		"temp_max": 27.95
+	},
+	"clouds": {
+		"all": 75
+	},
+	"sys": {
+		"country": "KR",
+		"sunrise": 1661288170,
+		"sunset": 1661336100,
+		"id": 8105,
+		"type": 1
+	},
+	"dt": 1661324167,
+	"coord": {
+		"lon": 126.7831,
+		"lat": 37.4989
+	},
+	"weather": [
+		{
+			"icon": "04d",
+			"description": "튼구름",
+			"main": "Clouds",
+			"id": 803
+		}
+	],
+	"name": "Bucheon-si",
+	"cod": 200,
+	"id": 1838716,
+	"base": "stations",
+	"wind": {
+		"deg": 190,
+		"speed": 2.06
+	}
+}
+KR
+Bucheon-si
+튼구름

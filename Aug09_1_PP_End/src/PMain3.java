@@ -58,9 +58,9 @@ public class PMain3 {
 	public static void printScore(int[] scores) {
 		int index = 1;
 		for (int i : scores) {
-			System.out.printf("%d번 학생 점수 : %점\n", index++, i );
+			System.out.printf("%d번 학생 점수 : %d점\n", index++, i);
+		}
 	}
-	
 	
 	
 	// 최고 점수, 평균 점수 출력하기

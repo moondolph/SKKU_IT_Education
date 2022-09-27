@@ -21,39 +21,36 @@ import org.apache.http.impl.client.DefaultHttpClient;
 
 public class HMain1 {
 	public static void main(String[] args) {
-		//서버에 접속
-		
+		// 서버에 접속
+
 		try {
 			DefaultHttpClient dhc = new DefaultHttpClient();
-			
-			// 요청 - GET(기본) or POST 
+
+			// 요청 - GET(기본) or POST
 			HttpGet hg = new HttpGet("https://www.naver.com/");
-			
+
 			// 응답
 			HttpResponse hr = dhc.execute(hg);
-			
-			//응답 내용
+
+			// 응답 내용
 			HttpEntity he = hr.getEntity();
-			
-			//그 내용을 가져갈 수 있는 빨대
+
+			// 그 내용을 가져갈 수 있는 빨대
 			InputStream is = he.getContent();
 			////////////////////////////////////
 			InputStreamReader isr = new InputStreamReader(is, "UTF-8");
 			BufferedReader br = new BufferedReader(isr);
-			
+
 			String line = null;
-			while (( line = br.readLine()) != null ) {
+			while ((line = br.readLine()) != null) {
 				System.out.println(line);
-				
+
 			}
-			
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
-		
-		
+
 	}
-	
-	
+
 }

@@ -1,4 +1,4 @@
-package com.beaver.aug222.main;
+Epackage com.beaver.aug222.main;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

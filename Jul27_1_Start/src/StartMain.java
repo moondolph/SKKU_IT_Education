@@ -77,16 +77,16 @@ public class StartMain {
 	/* 알아두면 유용한 단축키 !
 	 * 1. ctrl + s : 저장   ㅇ
  	   2. ctrl + a : 전체 선택 ㅇ
- 	   3. ctrl + m : 화면비율 
+ 	   3. ctrl + m : 화면비율 ㅇ
 	 * 4. ctrl + shift + / : 여러 줄 주석처리 ㅇ
        5. ctrl + alt + 방향키(위/아래로) : 그 줄 기준으로 (위/아래로) 복사 ㅇ  	
 	   6. alt + 방향키(위/아래) : 그 줄을 위/아래로 이동 ㅇ  
 	   7. ctrl + shift + +/- (숫자키 옆) : 글자 크기를 키우거나 줄일때  
 	   8. ctrl + d : 그 줄 삭제 ㅇ
 	   9. ctrl + spacebar : 자동완성 ㅇ
-	  10. ctrl + shift + f : 줄 정리 기능
+	  10. ctrl + shift + f : 줄 정리 기능 ㅇ
 	  11. ctrl + f11 : 실행 기능 ㅇ
-	  12.  
+	   
 	   
 	   
 	/**
@@ -122,6 +122,10 @@ public class StartMain {
  *
  */
 
-
+/*   이걸로도 여러 줄 주석 가능
+ * 
+ * 
+ *
+ */
 
 

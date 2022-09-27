@@ -10,11 +10,11 @@ public class Computer {
 		if(startCoin < 2 || startCoin > 21) {
 			System.out.println("다시 입력 해!!");
 		}
-		return(startCoin >= 2 && startCoin <=20) ? startCoin : askHowManyCoin(u);
+		return (startCoin >= 2 && startCoin <=20) ? startCoin : askHowManyCoin(u);
 	}
 	
 	public int shakeCoin(int userCoin) {
-		return cpu.nextInt(userCoin)+1;
+		return cpu.nextInt(userCoin) + 1 ;
 	}
 	
 	public String askHJ(User u) {
