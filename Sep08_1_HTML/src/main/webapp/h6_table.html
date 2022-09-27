@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+		table 
+ 			기본 : <tr>, <th>, <td>
+ 			속성 : border, width, height (table쪽에 심는게좋음)
+ 				  align, valign (정렬방법 td, th)
+ 				  colspan, rowspan (칸 합병, td)
+ 	
+ 	-->
+	<table border="10" width="300px" height="300px">
+		<tr>
+			<td>1</td> td = table data
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<td>3</td>
+
+
+		<td>4</td>
+	</table>
+	<hr>
+
+	<table border="5" width="350" height="350">
+		<tr>
+			<td align="middle">ㄱ</td>
+			<td align="middle" valign="top">ㄹ</td>
+
+		</tr>
+		<tr>
+			<td align="middle" valign="top">ㄴ</td>
+			<td align="middle" valign="bottom">ㅁ</td>
+
+		</tr>
+		<tr>
+			<td align="right" valign="top">ㄷ</td>
+			<td align="left" valign="bottom">ㅂ</td>
+
+		</tr>
+	</table>
+	</hr>
+
+	<table border="5" width="350" height="350">
+
+		<tr>
+			<td colspan="2"></td>			<!--colspan 가로(오른쪽방향병합)  -->
+			<td rowspan="2"></td>			<!--rowspan 세로(아래쪽방향병합)  -->
+		</tr>
+
+		<tr>
+			<td rowspan="2"></td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+
+	</table>
+
+<table border="5" width="350" height="350">
+		<tr >
+			<td colspan="5" bgcolor="red"><td rowspan="5" bgcolor= "green"></td>
+		</tr>
+		
+		<tr>
+			<td rowspan="5" bgcolor="blue"></td ><td colspan="3"></td><td rowspan="3"></td>
+		</tr>
+		
+		<tr>
+			<td rowspan="3" ></td> <td colspan="2" rowspan="2"></td> 
+		</tr>
+		
+		<tr>
+			<td colspan="3"></td> 
+		</tr>
+		
+		<tr>
+			<td colspan="5"bgcolor="yellow"></td>
+		</tr>
+
+
+	</table>
+
+
+</body>
+</html>
