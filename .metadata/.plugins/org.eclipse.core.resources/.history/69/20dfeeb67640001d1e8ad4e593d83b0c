@@ -1,0 +1,18 @@
+package com.beaver.sep302.calc;
+
+public class CalcDAO {
+	private int allCalcCount;
+	
+	public void calculate(CalcResult cr) {
+		allCalcCount++;
+		System.out.println(allCalcCount);
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+}

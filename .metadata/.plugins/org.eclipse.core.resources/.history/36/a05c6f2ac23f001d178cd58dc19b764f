@@ -1,0 +1,32 @@
+package com.beaver.sep293.human;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class Human {
+	//기본형
+	private String name;
+	private int age;
+	
+	//컬렉션
+	private String[] nickname;
+	private ArrayList<String> friend;
+	private HashMap<String, Integer> family;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

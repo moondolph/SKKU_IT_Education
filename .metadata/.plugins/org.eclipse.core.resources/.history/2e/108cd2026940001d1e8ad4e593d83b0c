@@ -1,0 +1,23 @@
+package com.beaver.sep302.calc;
+
+import org.springframework.stereotype.Controller;
+
+// 새 패키지를 만들때는 top-level-package뒤에 추가
+// com.beaver.sep302.calc - O
+// com.beeaver.calc - X
+// com.calc - X
+// calc - X
+
+@Controller
+public class CalcController {
+
+	// 1. JSP 스타일 - 파일업로드, 날짜, ... -> Spring을 사용 
+	
+	public String calcXY() {
+		
+	}
+	
+	
+	
+	
+}

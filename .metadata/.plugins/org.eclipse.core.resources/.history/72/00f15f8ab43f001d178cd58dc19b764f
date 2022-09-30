@@ -1,0 +1,36 @@
+package com.beaver.sep292;
+
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.beaver.sep292.dog.Dog;
+
+@Controller
+public class HomeController {
+	
+	// Spring : Java에서 IoC로 DI해주는 Framework 
+	// 		객체를 .java에서 만들기
+	//		객체를 외부파일(.xml)에 만들기 -> .java에서 불러서 사용하게끔 
+	//		
+	
+	
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String home(Locale locale, Model model) {
+		
+		Dog d = new Dog("개", 3);
+		System.out.println(d.getName());
+		System.out.println(d.getAge());
+		
+		
+		return "home";
+	}
+	
+}

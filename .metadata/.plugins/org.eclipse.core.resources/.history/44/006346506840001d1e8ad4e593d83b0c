@@ -1,0 +1,17 @@
+package com.beaver.sep302.calc;
+
+//새 패키지를 만들때는 top-level-package뒤에 추가
+// com.beaver.sep302.calc - ok
+// com.beeaver.calc - X
+// com.calc - X
+// calc - X
+
+
+
+public class CalcController {
+
+	
+	
+	
+	
+}

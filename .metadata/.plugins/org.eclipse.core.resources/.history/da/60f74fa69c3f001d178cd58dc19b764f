@@ -1,0 +1,21 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+<h1>
+	Hello world!  
+</h1>
+
+	Spring 사용 이전에는 
+	애플리케이션 구현하려면 -> EJB(Enterprise JavaBeans)사용.. 엄청 복잡한 과정..
+	EJB의 기술이 점점 발전하면서 성능이 점점 느려지게 되고 기능을 추가할수록 더욱더 복잡해지게 되었는데...
+	개발자들은 이 EJB 사용 시절을 '겨울'에 빗대어서 표현
+	'겨울'이 끝나고 '봄'이 찾아왔다해서 Spring이라고 이름 지음.
+	
+	
+
+</body>
+</html>

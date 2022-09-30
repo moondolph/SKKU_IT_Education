@@ -1,0 +1,6 @@
+package com.beaver.sep302.calc;
+
+//요청파라미터명과 JavaBean멤버변수명을 같게 
+public class CalcResult {
+
+}

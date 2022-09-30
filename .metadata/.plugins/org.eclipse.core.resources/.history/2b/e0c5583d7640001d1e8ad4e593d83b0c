@@ -1,0 +1,7 @@
+package com.beaver.sep302.calc;
+
+// 요청파라미터명과 JavaBean멤버변수명을 같게 
+// 자동으로 요청파라미터의 값을 Javabean객체에... 
+public class CalcResult {
+
+}

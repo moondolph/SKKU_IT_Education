@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="5">
+    <list key="modules" value0="Sep29_1_SpringMVC::org.eclipse.jst.jee.server:Sep29_1_SpringMVC::jst.web::2.5" value1="Sep29_2_SpringDI::org.eclipse.jst.jee.server:Sep29_2_SpringDI::jst.web::2.5" value2="Sep29_3_SpringDI::org.eclipse.jst.jee.server:Sep29_3_SpringDI::jst.web::2.5" value3="Sep30_1_SpringMVC_SpringDI::org.eclipse.jst.jee.server:Sep30_1_SpringMVC_SpringDI::jst.web::2.5" value4="Sep30_2_SpringMVC::org.eclipse.jst.jee.server:Sep30_2_SpringMVC::jst.web::2.5"/>
+  </server>
+</servers>

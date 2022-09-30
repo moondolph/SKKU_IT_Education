@@ -1,0 +1,17 @@
+package com.beaver.sep301.member;
+
+// 유지보수에 용이
+// Spring - Maven - MyBatis
+
+// 연/월/일의 형태... 
+
+// 운영자가 시 분 초까지 나오게 바꾸고 싶다고 요청
+// 연/월/일 -> 연-월-일 시:분:초
+//
+
+
+public class MemberDAO {
+
+	
+	
+}

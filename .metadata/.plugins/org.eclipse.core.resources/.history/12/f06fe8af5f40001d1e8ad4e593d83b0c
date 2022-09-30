@@ -1,0 +1,12 @@
+package com.beaver.sep301.member;
+
+// 유지보수에 용이
+// Spring - Maven - MyBatis
+
+// 연/월/일의 형태... 
+
+// 운영자가 
+
+public class MemberDAO {
+
+}
