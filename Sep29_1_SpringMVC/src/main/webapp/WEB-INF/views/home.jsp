@@ -21,7 +21,7 @@
 	(객체지향을 기초로 한 설계)
 
 	Spring Framework-->
-	사실상 Spring없이도 웹구현이 가능함. 
+	사실상 Spring 없이도 웹구현이 가능함. 
 	기능 구현에만 집중해서 빠르게 개발할 수 있도록 
 	기본적으로 필요한 '뼈대'를 제공해주는 것 
 	
@@ -34,16 +34,15 @@
 	Spring 구조 
 	
 	- Java Resources 
-		자바의 영역(src/main/java)		 	: Java코드를 작성
-		자원의 영역(src/main/resources)    : MyBatis(XML) 파일, DB(SQL) 파일 
+		자바의 영역(src/main/java)	: Java코드를 작성
+		자원의 영역(src/main/resources)	 : MyBatis(XML) 파일, DB(SQL) 파일 
 	- src - main - webapp - WEB-INF 폴더 :  
 		(웹을 중요한 파일들이 노출되지 않도록 만든 폴더)
 		cf)META-INF 폴더는 자바에서 설정관련 파일을 저장하는 폴더 
 			
-		spring이라는 폴더 안에 root-context.xml
-			: 워크스페이스 전체에 대한 설정
-			appServlet폴더 안에 servlet-context.xml
-			 : 이 프로젝트에 대한 설정 
+		spring이라는 폴더 안에 root-context.xml: 워크스페이스 전체에 대한 설정
+			
+		appServlet폴더 안에 servlet-context.xml: 이 프로젝트에 대한 설정 
 			 
 			views 폴더 : 말 그대로 사용자가 눈으로 볼 수 있는 view를 작성하는 공간(.jsp, .html)
 			

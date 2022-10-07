@@ -34,7 +34,7 @@ public class HomeController {
 		// 종류
 		// 	  1. @Bean : 개발자가 직접 제어가 불가능한 외부 라이브러리 등을 Bean으로 만들 때 사용
 		
-		//	 ★ 2. @Autowired : 속성, setter, 생성자에서 사용하며, 타입에 따라서 Bean을 주입해준다.
+		//	 ★ 2. @Autowired : 속성, setter, 생성자에서 사용하며, 타입에 따라서 Bean을 주입해준다.			//getter로 이해
 	 	
 		//	 ★  3. @Controller : Spring의 Controller 
 		//		  view(화면, .jsp)을 return 해주는게 목적!
@@ -47,7 +47,7 @@ public class HomeController {
 		//		  자바 객체를 HTTP 요청의 body 내용으로 매핑을 하는 역할
 		//		 RestController = Controller + ResponseBody
 		
-		//	 ★  6. @Service : 비즈니스 로직을 수행하는 Class를 나타낼 때 
+		//	 ★  6. @Service : 비즈니스 로직을 수행하는 Class를 나타낼 때 					//서비스 등록해야되니까 setter로 이해
 		//		 비즈니스 로직(Business Logic) : 사용자 눈에는 안보이지만, 사용자가 원하는 결과물을 올바르게 도출할 수 있도록 짜여진 코드(ex: DAO에서 가능)
 		
 		//	 ★  7. @XmlRootElement / @XmlElement 
@@ -62,11 +62,12 @@ public class HomeController {
 		//	 ★  8. @RequestMapping  
 		//			:요청에 따라 어떤 Controller, 어떤 Method가 처리될 지 
 		//				매핑하기 위해서 사용 
-		//			value : 요청받을 주소(url)을 설정
+		//			value : 요청받을 주소(url) 설정
 		//			method : 어떤 요청으로 받을지 설정
 		//				(GET, POST, PUT, DELETE, FETCH, ....)
 		//			W3C(표준 개발 기구, World Wide Web Consortium)
 		//				PUT, DELETE, FETCH... => 과연 유용한가 ? 
+		
 		//	  9. @RequestParam : 요청 파라미터 설정		
 		//
 		//

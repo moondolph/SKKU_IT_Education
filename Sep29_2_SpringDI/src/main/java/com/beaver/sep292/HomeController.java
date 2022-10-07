@@ -21,7 +21,7 @@ public class HomeController {
 	//		
 	
 	
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET)	//@RequestMapping -->요청에 따라 어떤 컨트롤러, 메소드가 처리될 지 매핑하기 위해 사용			
 	public String home(Locale locale, Model model) {
 		
 		// 원래는 이렇게 객체를 만들었다면...

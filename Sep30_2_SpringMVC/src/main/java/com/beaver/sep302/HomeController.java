@@ -61,7 +61,8 @@ public class HomeController {
 	public String gohome() { // String 자료형이 기본 
 		
 		
-		return "index";	//index.jsp로 포워딩 
+		return "index";	//index.jsp로 포워딩
+		
 	}
 	
 }
