@@ -21,24 +21,32 @@ a.append(1213)      # 끝에 요소 추가
 a.insert(2,1415)    # 중간에 요소 추가
 a[4] = 7788         # 수정 
 del a[0]            # 삭제
+a.index(4)          # 4의 값의 위치            
+a.remove(123)       # 123 제거
+a.pop()             # 리스트의 맨 마지막 요소 삭제
+a.pop(1)            # 리스트의 첫번째 요소 삭제
+a.count(1)          # 리스트에 있는 1의 개수 
+a.extend(x)         # a += [4, 5]와 동일. x는 리스트만 됨.
 
 #a.sort()              #오름차순 정렬
 a.sort(reverse = True) #내림차순 정렬
+a.reverse()            #순서 뒤집기
+
 print(a)
 print("----------------------------")
 
 #Tuple : 순서 O, 중복 O, 수정 X, 삭제 X
 tuple1=('1','2','3')
 # del tuple1[0]   #삭제 안됨
-# print(tuple1)   #수정 안됨
-# tuple1[0] = 'c'   #삭제 안됨
+# print(tuple1)   #삭제 안됨
+# tuple1[0] = 'c'   #수정 안됨
 # print(tuple1)   #수정 안됨
 
 t=(1,2,3,4,5,1,4,4)
 print(t)
 
 #index안의 요소가 있는 위치를 반환
-print(t.index(5))   #요소의 위치
+print(t.index(5))   #5의 인덱스번호
 
 
 #index안의 요소가 튜플안에서 몇 개가 있는지 그 개수를 반환
@@ -56,6 +64,7 @@ print(a1, b1)
 x, y, z = 10, 20, 30
 x, y, z = z, x, y
 print(x, y, z)
+
 print("---------------------")
 
 # Set(집합) : 중복 X, 순서x, 수정x, 삭제 o
@@ -63,14 +72,31 @@ s = {"ㅋ","ㅋ","ㄹ","ㅃ","ㅃ"}
 print(len(s))
 s = list(s)
 print(s)
+
+s1=set([1,2,3])
+s1.add(4)             #값 1개 추가
+s1.update([4, 5, 6])  #값 여러개 추가
+s1.remove(2)          #특정 값 제거
+
+
+
 print("---------------------")
 
-# Dict (=map)
+# Dict (=map) :   순서ㅇ, 중복x, 수정ㅇ, 삭제o
 d = {"name" : "곽두팔", "age":12}
 print(type(d))
 
 print(d["name"])
 print(d["age"])
+
+for k in d.keys():       #키 값만 출력     
+  print(k)    
+
+list(a.keys())      # dict_keys 객체를 리스트로 변환       
+
+a.values()          # Value 리스트 만들기
+a.items()           # Key와 Value의 쌍을 튜플로 묶은 값을 dict_items 객체로 돌려준다
+
 # dict - MongoDB / ElasticSearch
 print("------------------")
 
