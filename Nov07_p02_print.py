@@ -38,11 +38,18 @@ print('본격적으로', end=' ')
 print('시작되었습니다', end=' ')
 
 #출력형식(format)
+
+#순서대로 차례차례 들어감
 print('{} and {}'.format('1번','2번') )
+print( '{} and {}'.format('1번자리','2번자리'))
+
+#번호로 들어가는 순서 조정 가능
 print('{1} and {0} and {0}'.format('bb','aaa'))
+print('{1} and {2} and {0}'.format('제일먼저들어가는넘','두번쨰로들어감','세번쨰로들어감'))
+
+# 들어갈 위치 임의로 조정가능
 print('{p1} is {p2}'.format(p1='Life', p2='Egg'))
-
-
+print('{a자리} 그리고 {b자리} 그리고 {c자리}'.format(a자리="ㅋㅋㅋ",b자리=123,c자리="ㅎㅎㅎㅎ"))
 
 # %d, %f, %s
 # System.out.printf("%d", 123);
@@ -53,4 +60,3 @@ print('%.2f' %123.4567)
 print('{0:d},{1:.2f}'.format(10,11.11111))
 
 
-# 
